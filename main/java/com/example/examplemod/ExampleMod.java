@@ -16,5 +16,7 @@ public class ExampleMod
     {
 		// some example code
         System.out.println("DIRT BLOCK >> "+Blocks.dirt.func_149730_j());
+        // 2+2=fish
+        // I reject to reality and substitute my own
     }
 }
