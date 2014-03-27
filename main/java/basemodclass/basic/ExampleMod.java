@@ -1,9 +1,13 @@
-package com.example.examplemod;
+package basemodclass.basic;
 
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = ExampleMod.MODID, version = ExampleMod.VERSION)
 public class ExampleMod
@@ -16,7 +20,10 @@ public class ExampleMod
     {
 		// some example code
         System.out.println("DIRT BLOCK >> "+Blocks.dirt.func_149730_j());
-        // 2+2=fish
-        // I reject to reality and substitute my own
+        
+       
+
     }
 }
+
+
